@@ -1,0 +1,31 @@
+html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto';
+  --bg-color: rgb(255, 255, 255);
+  --panel-color: #FAFAFA;
+  --color-menu-text:#ffffffbf;
+  --theme-color: #54B689;
+  --color-side-bar:rgb(84, 182, 137);
+  --social-media-bg-color:rgba(255,255,255,0.8);
+  --active-menu-color: rgba(0,0,0,0.5);
+  --scrollbar-color: rgb(67,146,110);
+  --text-color: #000;
+  --bg-secondary-button:#363636;
+  --border-secondary-button:#2f2f2f;
+  --text-color-hover:rgb(58, 58, 58);
+}
+
+html[data-theme='dark'] {
+  --bg-color: #111821;
+  --panel-color: #151E29;
+  --color-side-bar: #1E2A3A;
+  --social-media-bg-color:rgb(84, 182, 137);
+  --active-menu-color: rgb(84, 182, 137);
+  --scrollbar-color: rgb(41, 53, 68);
+  --text-color: #fff;
+  --bg-secondary-button:#2f435c;
+  --border-secondary-button:#2f435c;
+  --text-color-hover:rgb(255,255, 255);
+}
+/*# sourceMappingURL=variable.css.map */

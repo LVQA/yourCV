@@ -1,0 +1,152 @@
+.profile-img {
+  max-width: 400px;
+}
+
+section.about-me-section {
+  background-color: var(--panel-color);
+}
+
+section.about-me-section .media-body {
+  text-align: left;
+}
+
+section.about-me-section .media-body .name {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: .25rem !important;
+}
+
+section.about-me-section .media-body .tag-line {
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-bottom: 1rem !important;
+}
+
+section.about-me-section .media-body .bio {
+  margin-bottom: 1.5rem;
+}
+
+section.about-me-section .media-body .bio a {
+  color: var(--theme-color);
+  text-decoration: none;
+}
+
+section.about-me-section img.profile-img {
+  width: 400px;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+section.overview .card {
+  background: var(--panel-color);
+  padding: 20px;
+}
+
+section.overview .card:hover {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+  -webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+}
+
+section.overview .card:hover .percent .number {
+  font-size: 60px;
+  color: var(--text-color-hover);
+}
+
+section.overview .card:hover .title {
+  color: var(--text-color-hover);
+}
+
+section.overview .card .title {
+  font-size: 20px;
+  margin: 10px 0;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+section.overview .card .percent {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  margin: auto;
+}
+
+section.overview .card .percent .number {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 150px;
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #777;
+  font-weight: 700;
+  font-size: 40px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section.overview .card .percent svg {
+  position: relative;
+  width: 150px;
+  height: 150px;
+}
+
+section.overview .card .percent svg circle {
+  width: 100%;
+  height: 100%;
+  fill: none;
+  stroke: #191919;
+  stroke-width: 10;
+  stroke-linecap: round;
+  -webkit-transform: translate(5px, 5px);
+          transform: translate(5px, 5px);
+}
+
+section.overview .card .percent svg circle:nth-child(2) {
+  stroke-dasharray: 440;
+  stroke-dashoffset: 440;
+}
+
+section.overview .card .percent span {
+  font-size: 24px;
+}
+
+section.overview #card_1 svg circle:nth-child(2) {
+  stroke-dashoffset: calc(440 - (440*90)/100);
+  stroke: var(--theme-color);
+}
+
+section.overview #card_2 svg circle:nth-child(2) {
+  stroke-dashoffset: calc(440 - (440*90)/100);
+  stroke: var(--theme-color);
+}
+
+section.overview #card_3 svg circle:nth-child(2) {
+  stroke-dashoffset: calc(440 - (440*70)/100);
+  stroke: var(--theme-color);
+}
+
+section.overview #card_4 svg circle:nth-child(2) {
+  stroke-dashoffset: calc(440 - (440*80)/100);
+  stroke: var(--theme-color);
+}
+
+section.overview #card_5 svg circle:nth-child(2) {
+  stroke-dashoffset: calc(440 - (440*50)/100);
+  stroke: var(--theme-color);
+}
+
+section.overview #card_6 svg circle:nth-child(2) {
+  stroke-dashoffset: calc(440 - (440*50)/100);
+  stroke: var(--theme-color);
+}
+/*# sourceMappingURL=index_style.css.map */

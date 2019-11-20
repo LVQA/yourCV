@@ -1,0 +1,94 @@
+html{
+    margin: 0;
+	padding: 0;
+    font-family: 'Roboto';
+    --bg-color: rgb(255, 255, 255);
+    --panel-color: #FAFAFA;
+    --color-menu-text:#ffffffbf;
+    --theme-color: #54B689;
+    --color-side-bar:#54B689;
+}
+html[data-theme='dark']{
+    --bg-color: #111821;
+    --panel-color: #151E29;
+	--color-side-bar: #1E2A3A; 
+}
+body {
+    margin: 0;
+    padding: 0;
+	display: block;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	text-align: center;
+	background-color:var(--bg-color);
+	
+}
+body h1{
+    margin: 0;
+    padding: 24px 0 ;
+    font-size: 24px;
+}
+ menu{
+     padding: 10px;
+     margin: 0;
+	 display: grid;
+	 height: 100vh;
+	 width: 33vh;
+	 overflow-y: auto ;
+	 background-color:var(--color-side-bar);
+	 color: var(--color-menu-text);
+	 
+ }
+ menu img{
+    border-radius: 50%;
+ }
+menu .dev_name{
+    color:#fff;
+}
+
+
+input[type=checkbox]{
+	height: 0;
+	width: 0;
+	visibility: hidden;
+	
+	
+}
+label {
+	cursor: pointer;
+	text-indent: -9999px;
+	width: 60px;
+	height: 30px;
+	background: grey;
+	display: block;
+	border-radius: 100px;
+	position: relative;
+
+	
+}
+
+label::after{
+    content: '';
+position: absolute;
+top: 5px;
+left: 5px;
+width: 20px;
+height: 20px;
+background: #fff;
+border-radius: 90px;
+transition: 0.3s;
+}
+
+label:active::after{
+    width: 60px;
+}
+
+input:checked + label {
+	background: var(--theme-color);
+}
+
+input:checked + label:after {
+	left: calc(100% - 5px);
+	transform: translateX(-100%);
+}
