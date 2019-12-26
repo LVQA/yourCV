@@ -58,7 +58,6 @@ function removeAddActiveClass() {
             const hrefPage = pageURLArray[pageURLArray.length-1];
             
             if(currentHref === hrefPage){
-                console.log(itemMenu[i])
                 itemMenu[i].parentNode.classList.add("active");
             }
         }

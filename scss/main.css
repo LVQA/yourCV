@@ -354,7 +354,7 @@ img {
 }
 
 section {
-  color: var(--text-color);
+  color: var(--text-color) !important;
 }
 
 .btn-primary {
@@ -392,5 +392,11 @@ section {
   display: block;
   margin-bottom: 20px;
   text-align: justify;
+}
+
+@media screen and (max-width: 480px) {
+  section {
+    padding: 2em !important;
+  }
 }
 /*# sourceMappingURL=main.css.map */

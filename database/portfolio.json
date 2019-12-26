@@ -3,24 +3,28 @@
         "image": "/yourCV/img/task-list.png",
         "title": "Task List",
         "Time": "1 week",
+        "link": "https://github.com/LVQA/tasks-list",
         "Describe": "Bạn có thể thêm yêu cầu từ ô \"New task\", có thể xóa từng yêu cầu hoặc xóa tất cả các yêu cầu , có thể tìm kiếm yêu cầu nhờ ô filter,app sử dụng local storage nên bạn sẽ không phải lo lắng sẽ mất các task khi refresh trình duyệt."
     },
     {
         "image": "/yourCV/img/3D_effect.png",
         "title": "3D Effect",
         "Time": "2 Days",
+        "link": "https://github.com/LVQA/3D-effect",
         "Describe": "Đây là một project tôi làm để tăng khả năng code CSS 3D. Bạn có thể thay đổi hiệu ứng nhờ vào việc nhấn vào nút \"Chuyển hiệu ứng\" việc này sẽ thay đổi class cube thành ring đồng thời sẽ thay đổi luôn hiệu ứng. "
     },
     {   
-        "image": "/yourCV/snow_park.png",
+        "image": "/yourCV/img/snow_park.png",
         "title": "Snow Park",
         "Time": "2 week",
+        "link": "https://github.com/LVQA/3D-effect",
         "Describe": "Là project đầu tiên tôi code thuần HTML,CSS. Tôi có dùng bootstrap để thuận tiện hơn trong việc code CSS. Tôi làm theo một trang web mẫu có sẵn để tăng khả năng xử Lý code HTML và CSS."
     },
     {
         "image": "/yourCV/img/healthy_hub.png",
         "title": "Healthy Hub",
         "Time": "1 week",
+        "link": "https://github.com/LVQA/3D-effect",
         "Describe": "Là một project tôi làm trên nền tảng word press. Tuy việc này khá dễ dàng vì tôi sử dụng Betheme để làm phần giao diện nên đỡ được rất nhiều về HTML và CSS nhưng tôi vẫn phải custom thêm CSS để đẹp hơn.  "
     }
 ]
