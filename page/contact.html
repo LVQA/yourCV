@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap&subset=vietnamese" rel="stylesheet">
     <script src="/yourCV/javascript/include_menu.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
-    <script src="/yourCV/javascript/include_menu.js"></script>
+    <link rel="stylesheet" href="../scss/contact_style.css">
     <title>Your CV ver1 </title>
 </head>
 <body>
@@ -18,13 +18,38 @@
      </div>
  
      <div class="main-wrapper">
-       <section class="container">
+       <section class="container panel">
             <div class="grid-center">
                 <div class="col-8">
                     <h1>Contact</h1>
                     <p>Nếu bạn cảm thấy hứng thú với profile của tôi và muốn tôi đồng hành cùng các bạn trong các dự án hãy điền vào form bên dưới để gửi email đến <a href="mailto:quangan.sozin.vn@gmail.com">quangan.sozin.vn@gmail.com</a></p>
                 </div>
             </div>
+       </section>
+       <section class="container form-contact">
+           <div class="grid-center">
+               <div class="col-12">
+                <h1>Get In Touch</h1>
+               </div>
+               <form action="" class="grid-center">
+                   <div class="col-6">
+                       <input type="text" name="name" id="name" placeholder="Họ và tên" width=100%>
+                   </div>
+                   <div class="col-6">
+                    <input type="tel" name="tel" id="tel" placeholder="Số điện thoại">
+                   </div>
+                   <div class="col-12">
+                    <input type="text" name="subject" id="subject" placeholder="Chủ đề">
+                   </div>
+                   <div class="col-12">
+                    <textarea name="Message" id="Message" cols="30" rows="10" placeholder="Tin nhắn của bạn"></textarea>
+                   </div>
+                   <div class="col-12">
+                        <input type="submit" value="Gửi" name="send" id="send">
+                   </div>
+               </form>
+           </div>
+
        </section>
     </div>
      
